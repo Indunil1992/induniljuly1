@@ -1,0 +1,91 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "40cdc567-8816-47a7-8c4a-352b38a738d4": {
+        "id": "40cdc567-8816-47a7-8c4a-352b38a738d4",
+        "parent": null,
+        "name": "induniljuly1.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "induniljuly1.js",
+        "cursor": {
+          "lineNumber": 14,
+          "column": 1
+        },
+        "config": {
+          "runtime": "nodejs10.x",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "induniljuly1"
+        },
+        "triggers": []
+      }
+    },
+    "openFiles": [
+      "40cdc567-8816-47a7-8c4a-352b38a738d4"
+    ],
+    "currentFileId": "40cdc567-8816-47a7-8c4a-352b38a738d4",
+    "resources": {
+      "s3induniltrigger": {
+        "name": "s3induniltrigger",
+        "type": "S3",
+        "config": {
+          "mode": 1,
+          "bucket": {
+            "region": "us-east-1",
+            "name": "indunil.trigger"
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "aws-sdk": {
+          "name": "aws-sdk",
+          "language": "nodejs",
+          "version": "2.644.0",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.0",
+    "projectName": "induniljuly1",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1593671877887
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "induniljuly1",
+      "url": "https://github.com/Indunil1992/induniljuly1"
+    }
+  }
+}

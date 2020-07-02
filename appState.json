@@ -11,7 +11,7 @@
         "isRemovable": true,
         "filePath": "induniljuly1.js",
         "cursor": {
-          "lineNumber": 14,
+          "lineNumber": 1,
           "column": 1
         },
         "config": {
@@ -79,7 +79,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1593671877887
+    "lastSave": 1593672106190
   },
   "VCS_STATE": {
     "provider": "GitHub",
